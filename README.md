@@ -4,6 +4,7 @@ Backing up Virtual Machines (VMs) and SQL VMs in Azure is a critical task for en
 
 
 
+
 You can access the Medium article I wrote about this from the link below.
 
 link
