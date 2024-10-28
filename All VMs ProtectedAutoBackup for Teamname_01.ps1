@@ -29,13 +29,13 @@ $RGs = Get-AzResourceGroup | ?{$_.ResourceGroupName -match $team[$i]}|select Res
     {     
     switch ($VM.Name)
     {
-         {$_ -match "iss"} {
+         {$_ -match "xxx"} {
             $rsvault = Get-AzRecoveryServicesVault -ResourceGroupName $backupRG[0] -Name $backupRSVault[0]
          }
-         {$_ -match "dss"} {
+         {$_ -match "yyy"} {
             $rsvault = Get-AzRecoveryServicesVault -ResourceGroupName $backupRG[1] -Name $backupRSVault[1]
          }
-         {$_ -match "isl"} {
+         {$_ -match "zzz"} {
             $rsvault = Get-AzRecoveryServicesVault -ResourceGroupName $backupRG[2] -Name $backupRSVault[2]
          }
     }
