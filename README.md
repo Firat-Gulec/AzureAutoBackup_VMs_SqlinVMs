@@ -1,5 +1,5 @@
 # AzureAutoBackup_VMs_SqlinVMs
-Backing up Virtual Machines (VMs) and SQL VMs in Azure is a critical task for ensuring business continuity. To avoid these issues, I developed a PowerShell script that automates the process of checking whether VMs and SQL VMs have backups enabled.
+Backing up Virtual Machines (VMs) and SQL VMs in Azure is a critical task for ensuring business continuity. To avoid these issues, I developed a PowerShell script that automates the process of checking whether VMs and SQL VMs have Azure automatically backups enabled.
 
 
 
